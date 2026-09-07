@@ -2,11 +2,18 @@
 
 面向中文用户的 Gemini 教程与动态合集：入门教程、插件、版本更新。内容整理自 Gemini 中文站官网。
 
-**完整教程与持续更新见官网：[Gemini中文站](https://www.hxsf.com.cn/)**
+**官方持续更新入口：[Gemini中文站 官网](https://www.hxsf.com.cn/)** —— 完整教程与最新文章以官网为准，本仓库为定期同步的中文内容镜像。
 
-> 本文档仓库共收录 **15 篇**（教程 7 篇 / 版本动态 8 篇），内容自动同步自 [Gemini中文站](https://www.hxsf.com.cn/)。
+## 仓库简介
 
-## 教程指南
+本仓库把 Gemini中文站 上「Gemini 中文指南」主题的公开文章收拢为 Markdown 合集：每篇文档顶部与文末都保留了官网原文链接，可在线阅读，也可以 `git clone` 到本地，用于检索、离线阅读或交给 AI 工具做学习总结。
+
+## 目录结构
+
+- `docs/` — 教程与使用指南（7 篇）：安装、上手、场景实战、答疑。
+- `changelog/` — 版本动态与资讯（8 篇）：按发布时间倒序排列。
+
+## 教程与指南
 
 - [Gemini CLI 接 MCP 的安全基线：受限模式、信任目录、最小权限](https://www.hxsf.com.cn/jiaocheng/2615) · [📄 仓库内阅读](docs/2615-GeminiCLI接MCP的安全基线：受限模式、信任目录、最小权限.md)
 - [Gemini 3.5 Transcribe 怎么用：Mac 应用、安卓 Gboard、Chrome 三条路](https://www.hxsf.com.cn/jiaocheng/2614) · [📄 仓库内阅读](docs/2614-Gemini3.5Transcribe怎么用：Mac应用、安卓Gboard、Ch.md)
