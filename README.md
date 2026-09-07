@@ -39,6 +39,6 @@ Gemini CLI 是 Google 推出的开源命令行 AI 编程助手，在本地终端
 
 ---
 
-**官方持续更新入口：[Gemini中文站 官网](https://www.hxsf.com.cn/)**
+**官方持续更新入口：[Gemini](https://www.hxsf.com.cn/)**
 
 © [Gemini中文站](https://www.hxsf.com.cn/) · 本仓库为官网内容镜像，文章版权归原作者所有。
