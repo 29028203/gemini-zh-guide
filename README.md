@@ -1,19 +1,18 @@
 # Gemini 中文指南
 
-面向中文用户的 Gemini 教程与动态合集：入门教程、插件、版本更新。内容整理自 Gemini 中文站官网。
+## Gemini CLI介绍
 
-**官方持续更新入口：[Gemini中文站 官网](https://www.hxsf.com.cn/)** —— 完整教程与最新文章以官网为准，本仓库为定期同步的中文内容镜像。
+Gemini CLI 是 Google 推出的开源命令行 AI 编程助手，在本地终端运行，将 Gemini 模型的强大能力直接带入命令行。支持通过自然语言指令查询和编辑大型代码库、从 PDF 或草图生成新应用、自动化操作任务（如查询 PR 或处理复杂 rebase）。Gemini CLI 接入 Gemini 2.5 Pro 模型，具备 100 万 token 超长上下文窗口，专为真实软件工程任务优化，支持多模态输入，可处理文本、图片、PDF 和草图。内置 Google 搜索工具，支持 MCP 协议扩展，可连接 Imagen、Veo 等媒体生成能力。采用 Apache 2.0 开源许可证，支持 Windows、macOS 和 Linux 三大平台，个人 Google 账号登录即享每分钟 60 次、每天 1000 次免费请求。
 
-## 仓库简介
+## Gemini CLI特点
 
-本仓库把 Gemini中文站 上「Gemini 中文指南」主题的公开文章收拢为 Markdown 合集：每篇文档顶部与文末都保留了官网原文链接，可在线阅读，也可以 `git clone` 到本地，用于检索、离线阅读或交给 AI 工具做学习总结。
+- 终端原生运行，轻量高效，零配置开箱即用。
+- Gemini 2.5 Pro 模型驱动，百万 token 超长上下文。
+- 支持代码理解、生成、调试、重构全流程开发。
+- 多模态输入，支持文本、图片、PDF、草图理解。
+- 支持 MCP 协议扩展，内置 Google 搜索与 Shell 工具。
 
-## 目录结构
-
-- `docs/` — 教程与使用指南（7 篇）：安装、上手、场景实战、答疑。
-- `changelog/` — 版本动态与资讯（8 篇）：按发布时间倒序排列。
-
-## 教程与指南
+## Gemini CLI教程与指南
 
 - [Gemini CLI 接 MCP 的安全基线：受限模式、信任目录、最小权限](https://www.hxsf.com.cn/jiaocheng/2615) · [📄 仓库内阅读](docs/2615-GeminiCLI接MCP的安全基线：受限模式、信任目录、最小权限.md)
 - [Gemini 3.5 Transcribe 怎么用：Mac 应用、安卓 Gboard、Chrome 三条路](https://www.hxsf.com.cn/jiaocheng/2614) · [📄 仓库内阅读](docs/2614-Gemini3.5Transcribe怎么用：Mac应用、安卓Gboard、Ch.md)
@@ -23,7 +22,7 @@
 - [Gemini API省钱攻略：批量模式最高打一折，上下文缓存再砍一刀](https://www.hxsf.com.cn/jiaocheng/2560) · [📄 仓库内阅读](docs/2560-GeminiAPI省钱攻略：批量模式最高打一折，上下文缓存再砍一刀.md)
 - [Gemini API官方Cookbook怎么学？49个免费教程和正确的入门顺序](https://www.hxsf.com.cn/jiaocheng/2559) · [📄 仓库内阅读](docs/2559-GeminiAPI官方Cookbook怎么学？49个免费教程和正确的入门顺序.md)
 
-## 版本动态
+## Gemini CLI版本动态
 
 - 2026-09-07 · [Gemini 3.5 Transcribe发布：85种语言实时转写，词错误率最低2.6%](https://www.hxsf.com.cn/geminidt/2605) · [📄 仓库内阅读](changelog/2605-Gemini3.5Transcribe发布：85种语言实时转写，词错误率最低2..md)
 - 2026-09-06 · [Gemini视频理解上新：像分析师一样挑着看视频，token最高省88%](https://www.hxsf.com.cn/geminidt/2604) · [📄 仓库内阅读](changelog/2604-Gemini视频理解上新：像分析师一样挑着看视频，token最高省88%.md)
@@ -35,5 +34,7 @@
 - 2026-08-25 · [Google给学生发福利：Gemini订阅免费一年，Pro套餐也能白嫖](https://www.hxsf.com.cn/geminidt/2556) · [📄 仓库内阅读](changelog/2556-Google给学生发福利：Gemini订阅免费一年，Pro套餐也能白嫖.md)
 
 ---
+
+**官方持续更新入口：[Gemini中文站 官网](https://www.hxsf.com.cn/)**
 
 © [Gemini中文站](https://www.hxsf.com.cn/) · 本仓库为官网内容镜像，文章版权归原作者所有。
